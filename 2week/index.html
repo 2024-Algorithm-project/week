@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>문제 2</h1>
+    <div class="box">
+        <form id="form">
+            <div>
+                <p>1&lt;=N=&lt;100 값을 입력해주세요</p>
+                <input type="number" min="1" max="100" id="area" required>
+            </div>
+            <div>
+                <p>이동방향을 R, L, U, D 공백 구분하여 입력해주세요.</p>
+                <P>R = 오른쪽 / L = 왼쪽 / U = 위 / D = 아래</P>
+                <input type="text" id="move" required>
+            </div>
+            <button type="submit">result</button>
+            <button type="reset">reset</button>
+        </form>
+        <div>
+            <p class="result"></p>
+        </div>
+    </div>
+    <script src="./2.js"></script>
+</body>
+</html>
