@@ -27,8 +27,3 @@ function move(event){
     }
     result.innerText= `${x},${y}`;
 }
-
-
-function reset(){
-    check.remove();
-}
