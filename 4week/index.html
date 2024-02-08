@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>문제 4</h1>
+    <div class="box">
+        <p>N과 M을 입력해주세요(공백으로 구분)</p>
+        <p>N = 차량 수 / M = 정체 기준 거리</p>
+    </div>
+    <form id="form-1">
+        <input type="number" id="input-1" min="1" max="1000" required>
+        <input type="number" id="input-2" min="1" max="100" required>
+        <button type="submit" id="button-1">result</button>
+        <button type="reset" id="button-2">reset</button>
+    </form>
+    <form id="form-2">
+        <div id="input-box"></div>
+        <button type="submit" id="button-1">result</button>
+        <button type="reset" id="button-2">reset</button>
+    </form>
+    <div id="result-box"></div>
+    <script src="./4.js"></script>
+    <style>
+        #form-2 button{
+            display: none;
+        }
+    </style>
+</body>
+</html>
