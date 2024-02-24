@@ -28,7 +28,7 @@ while True:
     ny = y + dy[direction]
     
     # 회전한 이후 정면에 가보지 않은 칸이 존재하는 경우 이동
-    if visited[nx][ny] == "x" and game_map[nx][ny] == 0:
+    if visited[nx][ny] == 0 and game_map[nx][ny] == 0:
         visited[nx][ny] = "x"
         x = nx
         y = ny
