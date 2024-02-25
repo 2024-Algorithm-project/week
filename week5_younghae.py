@@ -31,10 +31,10 @@ longer = []
 for i in train:
     if(len(longer) < len(i)):
         longer.clear() #새로 값 추가하기 위해 초기화
-        longer.append(i[0])
+        longer.extend([i])
     elif(len(longer) == len(i)): #중복이 있는 경우
-        longer.append(i[0])
+        longer.extend([i])
 
 #출력
 for l in longer:
-    print(l)
+    print(l[0])
